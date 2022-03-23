@@ -115,7 +115,7 @@ const MainPage = () => {
                 <div className='subbanner__info'>
                     <h3>Approach</h3>
                     <span class="dot" />
-                    <p>Ascentris’ approach enables it to create a diversified portfolio that maximizes profits with a long-term perspective and short-term potential.</p>
+                    <p>Fortbridge’s approach enables it to create a diversified portfolio that maximizes profits with a long-term perspective and short-term potential.</p>
                 </div>
                 <div className='subbanner__info'>
                     <h3>Investments</h3>
