@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/jost": "^4.5.4",
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.7.1",
     "gatsby-plugin-react-svg": "^3.1.0",

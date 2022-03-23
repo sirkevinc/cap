@@ -20,8 +20,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100vh;
         box-sizing: border-box;
         font-size: 1.6rem;
-        font-family: Tahoma, Verdana, Segoe, sans-serif;
-        // background-color: #e6e6e6;
+        ${'' /* font-family: Tahoma, Verdana, Segoe, sans-serif; */}
+        font-family: "Jost", sans-serif;
     }
 
     .site-wrapper {
