@@ -21,6 +21,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-size: 1.6rem;
         font-family: Tahoma, Verdana, Segoe, sans-serif;
+        // background-color: #e6e6e6;
     }
 
     .site-wrapper {

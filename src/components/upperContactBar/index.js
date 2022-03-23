@@ -10,7 +10,16 @@ import InstagramIcon from '../../assets/svg/linkedin.svg'
 const UpperContactStyled = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px 15px;
+    .upper__links {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
     .upper__icon {
         width: 2.5rem;
         margin: 0 2px;

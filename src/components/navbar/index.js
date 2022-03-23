@@ -1,6 +1,7 @@
 import React from 'react'
 import Burger from '../burger'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 const Nav = styled.nav`
     position: ${({ scroll }) => scroll >= 35 ? 'fixed' : 'relative'};
@@ -18,6 +19,10 @@ const Nav = styled.nav`
         font-size: 3.25rem;
         font-weight: 400;
         padding: 3px 0;
+        a {
+            text-decoration: none;
+            color: #000;
+        }
     }
 `
 
@@ -26,7 +31,7 @@ const Navbar = ({ scroll }) => {
     return (
         <Nav scroll={scroll} >
             <span className='logo'>
-                Fortbridge Capital
+                <Link to='/'>Fortbridge Capital</Link>
             </span>
             <Burger />
         </Nav>
