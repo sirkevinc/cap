@@ -9,8 +9,9 @@ const StyledFooter = styled.footer`
     padding: 25px;
     .footer__main {
         display: flex;
-        width: 60%;
+        width: 100%;
         justify-content: space-between;
+        padding: 0 3em;
     }
     ul {
         display: flex;
@@ -31,8 +32,7 @@ const Footer = () => {
         <StyledFooter>
             <div className="footer__main">
                 <section>
-                    <h3>Fortbridge</h3>
-                    <h3>Capital</h3>
+                    <h3>Fortbridge Capital</h3>
                     <h3>Partners</h3>
                 </section>
                 <section className="footer__about">
@@ -46,7 +46,7 @@ const Footer = () => {
                 <section>
                     <h3>Fortbridge</h3>
                     <p>One Liberty Place</p>
-                    <p>1650 Market Street, 36th Floor</p>
+                    <p>1650 Market Street, 36F</p>
                     <p>Philadelphia, PA 19103</p>
                 </section>
             </div>

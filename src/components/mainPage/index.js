@@ -66,8 +66,8 @@ const StyledMain = styled.main`
     } */}
 
     .mainpage__summary img{
-        width: 350px;
-        height: 225px;
+        width: 400px;
+        height: auto;
     }
 
     .mainpage__summary text {
@@ -105,6 +105,14 @@ const StyledMain = styled.main`
         }
     }
     @media (max-width: 768px) {
+        .mainpage__banner {
+            text {
+                display: none;
+            }
+        }
+        .mainpage__subbanner {
+            display: none;
+        }
         .mainpage__summary {
             display: block;
         }
@@ -151,7 +159,7 @@ const MainPage = () => {
                 <div className='subbanner__info'>
                     <h4>Investments</h4>
                     {/* <span class="dot" /> */}
-                    <p>Ascentris is a mid-market value investor, targeting Office, Multifamily, Retail and Industrial properties with both short-term and long-term investment strategies.</p>
+                    <p>Fortbridge is a mid-market value investor, targeting Office, Multifamily, Retail and Industrial properties with both short-term and long-term investment strategies.</p>
                 </div>
                 <div className='subbanner__info'>
                     <h4>Culture</h4>
